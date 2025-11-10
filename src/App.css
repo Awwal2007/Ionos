@@ -212,6 +212,9 @@ section, footer{
   box-shadow: 0px 2px 4px -2px black;
   color:#003d8f;
 }
+.section2 .package-section{
+  margin-bottom: 40px;
+}
 .section2 .packages-container{
   display: flex;
   justify-content: center;
@@ -219,7 +222,7 @@ section, footer{
   gap: 10px;
 }
 .section2 .packages-container .package{
-  width: 400px;
+  width: 350px;
   /* height: 600px; */
   border: 2px solid #A4B5CF;
   border-radius: 26px;

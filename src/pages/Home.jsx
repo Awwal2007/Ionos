@@ -190,13 +190,78 @@ return (
                     
                     :
 
-                    <div className='packages-container'>
-                        <div className='package'></div>
-                        <div className='package'></div>
+                    <div style={{gap: "40px"}} className='packages-container'>
+                        <div className='package'>
+                            <div className='top'>
+                                <h3>SSL Starter Wildcard</h3>
+                                <hr />
+                            </div>
+                            <div className='middle'>
+                                <div className='only'>Only</div>
+                                <div className='price'>
+                                    
+                                    <span className='number'><sup className='dollar-sign'>£</sup>65</span>
+                                    
+                                    <div className='year'> 
+                                        <div>/year</div>
+                                        <div>excl.VAT</div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div>
+                                <a className='add-to-cart-btn' href="#">Add to cart</a>
+                            </div>
+                            <div className='bottom'>
+                                <div>Instant SSL DV Wildcard</div>
+                                <div>Protect a domain, including all of its subdomains</div>
+                                <h3>Domain Validated <IoMdInformationCircleOutline /> </h3>
+                                <div>Up to 256-bit encryption</div>
+                                <div>£500,000 loss excess amount</div>
+                                <h3>Padlock display</h3>
+                                <div>Easy to activate on your website</div>
+                            </div>
+                        </div>
+                        <div className='package'>
+                            <div className='top'>
+                                <h3>SSL Business Wildcard</h3>
+                                <hr />
+                            </div>
+                            <div className='middle'>
+                                <div className='only'>Only</div>
+                                <div className='price'>
+                                    
+                                    <span className='number'><sup className='dollar-sign'>£</sup>265</span>
+                                    
+                                    <div className='year'> 
+                                        <div>/year</div>
+                                        <div>excl.VAT</div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div>
+                                <a className='add-to-cart-btn' href="#">Add to cart</a>
+                            </div>
+                            <div className='bottom'>
+                                <div>Instant SSL OV Wildcard</div>
+                                <div>Protect a domain, including all of its subdomains</div>
+                                <h3>Organisation Validated <IoMdInformationCircleOutline /> </h3>
+                                <div>Up to 256-bit encryption</div>
+                                <div>£1,250,000 loss excess amount</div>
+                                <h3>Padlock display</h3>
+                                <div>Protection against phishing</div>
+                                <div>Display the trustworthiness of your business</div>
+                            </div>
+                        </div>
+                        
                     </div>
 
                 }
             </div>
+            <div style={{textAlign: "center"}}> All prices exclude VAT charged at 20%. VAT may be subject to change depending on your country of residence. Terms and conditions apply.</div>
         </section>
     </div>
   )
