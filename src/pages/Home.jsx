@@ -200,7 +200,7 @@ return (
                                 <div className='only'>Only</div>
                                 <div className='price'>
                                     
-                                    <span className='number'><sup className='dollar-sign'>£</sup>65</span>
+                                    <span className='number'><sup className='dollar-sign'>£</sup>2665</span>
                                     
                                     <div className='year'> 
                                         <div>/year</div>
@@ -232,10 +232,10 @@ return (
                                 <div className='only'>Only</div>
                                 <div className='price'>
                                     
-                                    <span className='number'><sup className='dollar-sign'>£</sup>265</span>
+                                    <span className='number'><sup className='dollar-sign'>£</sup>4665</span>
                                     
                                     <div className='year'> 
-                                        <div>/year</div>
+                                        <div>/3year</div>
                                         <div>excl.VAT</div>
                                         
                                     </div>
