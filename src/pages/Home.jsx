@@ -112,9 +112,46 @@ return (
                                 <div>Easy to activate on your website</div>
                             </div>
                         </div>
+
                         <div className='package'>
-                            
+                            <div className='top'>
+                                <h3>SSL Business</h3>
+                                <hr />
+                            </div>
+                            <div style={{marginBottom: "10px"}} className='middle'>
+                                <div className='save'>
+                                    Save 17%
+                                </div>
+                                <div style={{textDecoration: "line-through"}} className='only'>60/year</div>
+                                <div className='price'>
+                                    
+                                    <span className='number'><sup className='dollar-sign'>£</sup>50</span>
+                                    
+                                    <div className='year'> 
+                                        <div>/year</div>                                  
+                                    </div>
+                                    
+                                </div>
+                                <div className='for-one-year'>
+                                    <div>for 1 year</div>
+                                    <div>excl.VAT</div>
+                                </div>
+                            </div>
+                            <div>
+                                <a className='add-to-cart-btn' href="#">Add to cart</a>
+                            </div>
+                            <div className='bottom'>
+                                <div>Instant SSL OV</div>
+                                <div>Protection for one domain name</div>
+                                <h3>Organisation Validation <IoMdInformationCircleOutline /> </h3>
+                                <div>Up to 256-bit encryption</div>
+                                <div>£1,250,000 loss excess</div>
+                                <h3>Padlock display</h3>
+                                <div>Protection against phishing</div>
+                                <div>Display the trustworthiness of your business</div>
+                            </div>
                         </div>
+
                         <div className='package'>
                             <div className='top'>
                                 <h3>SSL Premium</h3>
@@ -142,9 +179,11 @@ return (
                                 <div>Protection for one domain name</div>
                                 <h3>Extended Validation <IoMdInformationCircleOutline /> </h3>
                                 <div>Up to 256-bit encryption</div>
-                                <div>£500,000 loss excess amount</div>
+                                <div>£1,750,000 loss excess amount</div>
                                 <h3>Padlock display</h3>
-                                <div>Easy to activate on your website</div>
+                                <div>Protection against phishing</div>
+                                <div>Display the trustworthiness of your business</div>
+                                <div>Highest level of authentication</div>
                             </div>
                         </div>
                     </div>

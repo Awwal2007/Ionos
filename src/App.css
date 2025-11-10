@@ -215,7 +215,7 @@ section, footer{
 .section2 .packages-container{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   gap: 10px;
 }
 .section2 .packages-container .package{
@@ -235,7 +235,7 @@ section, footer{
   color: #425774ab;
 }
 .section2 .packages-container .package:nth-child(2){
-  background-color: #003d8f;
+  background-color: #0B2A63;
   border: none;
   color: white;
 }
@@ -258,6 +258,20 @@ section, footer{
 .section2 .packages-container .package .middle .price .number{
   font-size: 3.9rem;
   font-weight: 700;
+}
+.section2 .packages-container .package .middle .for-one-year{
+  font-size: .7rem;
+  font-weight: 700;
+}
+.section2 .packages-container .package .middle .save{
+  padding: 2px 6px;
+  font-size: .8rem;
+  border-radius: 3px;
+  font-weight: 700;
+  background-color: #FFAA00;
+  color: black;
+  width: fit-content;
+  margin-bottom: 5px;
 }
 .section2 .packages-container .package .middle .price .year{
   /* font-size: 2.3rem; */
@@ -285,6 +299,7 @@ section, footer{
   text-align: center;
   border-radius: 24px;
   margin-bottom: 30px;
+  color:#2E4360;
 }
 .section2 .packages-container .package .bottom{
   display: flex;
