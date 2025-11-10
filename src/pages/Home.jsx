@@ -215,7 +215,7 @@ return (
                             </div>
                             <div className='bottom'>
                                 <div>Instant SSL DV Wildcard</div>
-                                <div>Protect a domain, including all of its subdomains</div>
+                                <div>Protect a domain, excluding all of its subdomains</div>
                                 <h3>Domain Validated <IoMdInformationCircleOutline /> </h3>
                                 <div>Up to 256-bit encryption</div>
                                 <div>£500,000 loss excess amount</div>
