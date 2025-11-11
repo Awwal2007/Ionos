@@ -175,6 +175,9 @@ section, footer{
 .section1 .container .right img{
   width: 100%;
 }
+.section2{
+  margin-bottom: 80px;
+}
 
 .section2 h2{
   font-weight: 500;
@@ -324,4 +327,28 @@ section, footer{
   font-weight: 600;
   font-size: 1.5rem;
   cursor: pointer;
+}
+/* section 3 */
+
+.section3 h2{
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: rgb(0,27,65);
+}
+.section3 p{
+  font-size: 1.5rem;
+  color: rgb(0,27,65);
+  max-width: 85%;
+  margin-bottom: 50px;
+}
+.section3 .container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section3 .container .left img{
+  width: 100%;
+}
+.section3 .container .right img{
+  width: 100%;
 }

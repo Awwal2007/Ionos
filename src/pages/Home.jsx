@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { Header } from '../components/Header'
-import https from '../assets/https.avif'
 import { IoCheckmarkCircle } from "react-icons/io5";
-import section1Img from '../assets/section1-illustration.svg'
 import { IoMdInformationCircleOutline } from "react-icons/io";
+import https from '../assets/https.avif'
+import section1Img from '../assets/section1-illustration.svg'
+import sectigoLogo from '../assets/Logo_Sectigo.png.avif'
 
 export const Home = () => {
     const [toggleActive, setToggleActive] = useState(true);
@@ -164,7 +165,7 @@ return (
                                     <span className='number'><sup className='dollar-sign'>£</sup>4200</span>
                                     
                                     <div className='year'> 
-                                        <div>/2year</div>
+                                        <div>/2years</div>
                                         <div>excl.VAT</div>
                                         
                                     </div>
@@ -235,7 +236,7 @@ return (
                                     <span className='number'><sup className='dollar-sign'>£</sup>4665</span>
                                     
                                     <div className='year'> 
-                                        <div>/3year</div>
+                                        <div>/3years</div>
                                         <div>excl.VAT</div>
                                         
                                     </div>
@@ -261,7 +262,20 @@ return (
 
                 }
             </div>
-            <div style={{textAlign: "center"}}> All prices exclude VAT charged at 20%. VAT may be subject to change depending on your country of residence. Terms and conditions apply.</div>
+            <div style={{textAlign: "center", color: "rgb(0,27,65)"}}> All prices exclude VAT charged at 20%. VAT may be subject to change depending on your country of residence. Terms and conditions <a style={{textDecoration: "underline"}} href="#">apply</a>.</div>
+        </section>
+
+        <section className="section3">
+            <h2>Sectigo – trusted to secure your website</h2>
+            <p>Partnering with Sectigo, a global cybersecurity leader, we provide unmatched protection with advanced 256-bit SSL encryption.</p>
+            <div className="container">
+                <div className='left'>
+                    <img src={sectigoLogo} alt="partner-sectiogo logo" />
+                </div>
+                <div className='right'>
+
+                </div>
+            </div>
         </section>
     </div>
   )
