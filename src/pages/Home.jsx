@@ -5,6 +5,7 @@ import { IoMdInformationCircleOutline } from "react-icons/io";
 import https from '../assets/https.avif'
 import section1Img from '../assets/section1-illustration.svg'
 import sectigoLogo from '../assets/Logo_Sectigo.png.avif'
+import { Link, Navigate } from 'react-router-dom';
 
 export const Home = () => {
     const [toggleActive, setToggleActive] = useState(true);
@@ -81,6 +82,7 @@ return (
                 {packageActive ?
                     
                     <div className="packages-container">
+
                         <div className='package'>
                             <div className='top'>
                                 <h3>SSL Starter</h3>
@@ -101,7 +103,7 @@ return (
                                 
                             </div>
                             <div>
-                                <a className='add-to-cart-btn' href="#">Add to cart</a>
+                                <Link to='/checkout/overview' className='add-to-cart-btn' href="#">Add to cart</Link>
                             </div>
                             <div className='bottom'>
                                 <div>Instant SSL DV</div>
@@ -123,7 +125,7 @@ return (
                                 <div className='save'>
                                     Save 17%
                                 </div>
-                                <div style={{textDecoration: "line-through"}} className='only'>60/year</div>
+                                <div style={{textDecoration: "line-through"}} className='only'>3780/year</div>
                                 <div className='price'>
                                     
                                     <span className='number'><sup className='dollar-sign'>£</sup>3750</span>
@@ -139,7 +141,7 @@ return (
                                 </div>
                             </div>
                             <div>
-                                <a className='add-to-cart-btn' href="#">Add to cart</a>
+                                <Link to='/checkout/two' className='add-to-cart-btn' href="#">Add to cart</Link>
                             </div>
                             <div className='bottom'>
                                 <div>Instant SSL OV</div>
@@ -173,7 +175,7 @@ return (
                                 
                             </div>
                             <div>
-                                <a className='add-to-cart-btn' href="#">Add to cart</a>
+                                <Link to='/checkout/three' className='add-to-cart-btn' href="#">Add to cart</Link>
                             </div>
                             <div className='bottom'>
                                 <div>Instant SSL EV</div>
@@ -212,7 +214,7 @@ return (
                                 
                             </div>
                             <div>
-                                <a className='add-to-cart-btn' href="#">Add to cart</a>
+                                <Link to='/checkout/four' className='add-to-cart-btn' href="#">Add to cart</Link>
                             </div>
                             <div className='bottom'>
                                 <div>Instant SSL DV Wildcard</div>
@@ -224,6 +226,7 @@ return (
                                 <div>Easy to activate on your website</div>
                             </div>
                         </div>
+
                         <div className='package'>
                             <div className='top'>
                                 <h3>SSL Business Wildcard</h3>
@@ -244,7 +247,7 @@ return (
                                 
                             </div>
                             <div>
-                                <a className='add-to-cart-btn' href="#">Add to cart</a>
+                                <Link to='/checkout/five' className='add-to-cart-btn'>Add to cart</Link>
                             </div>
                             <div className='bottom'>
                                 <div>Instant SSL OV Wildcard</div>
@@ -273,7 +276,21 @@ return (
                     <img src={sectigoLogo} alt="partner-sectiogo logo" />
                 </div>
                 <div className='right'>
-
+                    <h3>Sectigo SSL Certificate</h3>
+                    <div>
+                        <div>
+                            <IoCheckmarkCircle />
+                            <p>Trusted worldwide by millions of websites</p>
+                        </div>
+                        <div>
+                            <IoCheckmarkCircle />
+                            <p>Decades of experience in internet security</p>
+                        </div>
+                        <div>
+                            <IoCheckmarkCircle />
+                            <p>Fast SSL setup with top-tier support</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
