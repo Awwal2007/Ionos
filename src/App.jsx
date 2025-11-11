@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
+import ScrollToTop from './components/ScrollToTop'
 import { Checkout } from './pages/Checkout'
 import { Checkout2 } from './pages/Checkout2'
 import { Checkout3 } from './pages/Checkout3'
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/checkout/overview' element={<Checkout />} />
