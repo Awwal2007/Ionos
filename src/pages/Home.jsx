@@ -92,7 +92,7 @@ return (
                                 <div className='only'>Only</div>
                                 <div className='price'>
                                     
-                                    <span className='number'><sup className='dollar-sign'>£</sup>890</span>
+                                    <span className='number'><sup className='dollar-sign'>£</sup>890.00</span>
                                     
                                     <div className='year'> 
                                         <div>/year</div>
@@ -128,7 +128,7 @@ return (
                                 {/* <div style={{textDecoration: "line-through"}} className='only'>1473/year</div> */}
                                 <div className='price'>
                                     
-                                    <span className='number'><sup className='dollar-sign'>£</sup>1473</span>
+                                    <span className='number'><sup className='dollar-sign'>£</sup>1473.33</span>
                                     
                                     <div className='year'> 
                                         <div>/year</div>                                  
@@ -164,7 +164,7 @@ return (
                                 <div className='only'>Only</div>
                                 <div className='price'>
                                     
-                                    <span className='number'><sup className='dollar-sign'>£</sup>2200</span>
+                                    <span className='number'><sup className='dollar-sign'>£</sup>2200.00</span>
                                     
                                     <div className='year'> 
                                         <div>/3years</div>

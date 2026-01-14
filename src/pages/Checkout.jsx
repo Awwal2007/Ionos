@@ -74,9 +74,10 @@ export const Checkout = () => {
                         <div>
                             <h3>SSL Starter</h3>
                             <div>
-                                <h3>£890</h3>
+                                <h3>£890.00</h3>
                             </div>
                         </div>
+                        <div>/year <br /> {/*Then only £2780/year*/}</div> 
                         <div style={{gap: "10px"}}>
                             <div className='contract-details' style={{textDecoration: "underline"}} >Contract Details <GoChevronDown /> </div>
                             <RiDeleteBin6Line className='deleteBtn' />
@@ -140,7 +141,7 @@ export const Checkout = () => {
                     <div>1 item</div>
                     <div style={{display: "flex", justifyContent: "space-between"}}>
                         <h2>Total excl. VAT</h2>
-                        <h2>£890</h2>
+                        <h2>£890.00</h2>
                     </div>
                     <div style={{textAlign:"right"}}>
                         {/* (20% VAT £666) */}
