@@ -23,6 +23,15 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import { SlCallEnd } from 'react-icons/sl';
 
 export const Checkout3 = () => {
+
+    const downloadInvoice = () => {
+        const link = document.createElement('a');
+        link.href = '/invoices/INV_749027853010_3.pdf';
+        link.download = 'Invoice-749027853010.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
   return (
     <div className='checkout'>
         <div className="checkout-header">
@@ -143,8 +152,8 @@ export const Checkout3 = () => {
                         OR
                         <hr />
                     </div>
-                    <div className='continue-btn'>
-                        <a href="#">View Invoice</a>
+                    <div onClick={downloadInvoice} className='continue-btn'>
+                        <a href="">View Invoice</a>
                     </div>
                 </div>
             </div>

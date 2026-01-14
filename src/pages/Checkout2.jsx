@@ -154,7 +154,7 @@ export const Checkout2 = () => {
                         <hr />
                     </div>
                     <div onClick={downloadInvoice} className='continue-btn'>
-                        <a href="#">View Invoice</a>
+                        <a href="">View Invoice</a>
                     </div>
                 </div>
             </div>
