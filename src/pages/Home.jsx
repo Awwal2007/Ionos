@@ -92,7 +92,7 @@ return (
                                 <div className='only'>Only</div>
                                 <div className='price'>
                                     
-                                    <span className='number'><sup className='dollar-sign'>£</sup>1330</span>
+                                    <span className='number'><sup className='dollar-sign'>£</sup>890</span>
                                     
                                     <div className='year'> 
                                         <div>/year</div>
@@ -122,13 +122,13 @@ return (
                                 <hr />
                             </div>
                             <div style={{marginBottom: "10px"}} className='middle'>
-                                <div className='save'>
+                                {/* <div className='save'>
                                     Save 17%
-                                </div>
-                                <div style={{textDecoration: "line-through"}} className='only'>1780/year</div>
+                                </div> */}
+                                {/* <div style={{textDecoration: "line-through"}} className='only'>1473/year</div> */}
                                 <div className='price'>
                                     
-                                    <span className='number'><sup className='dollar-sign'>£</sup>1750</span>
+                                    <span className='number'><sup className='dollar-sign'>£</sup>1473</span>
                                     
                                     <div className='year'> 
                                         <div>/year</div>                                  
@@ -136,7 +136,7 @@ return (
                                     
                                 </div>
                                 <div className='for-one-year'>
-                                    <div>for 1 year</div>
+                                    <div>for 2 years</div>
                                     <div>excl.VAT</div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ return (
                                     <span className='number'><sup className='dollar-sign'>£</sup>2200</span>
                                     
                                     <div className='year'> 
-                                        <div>/2years</div>
+                                        <div>/3years</div>
                                         <div>excl.VAT</div>
                                         
                                     </div>

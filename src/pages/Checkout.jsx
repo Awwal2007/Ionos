@@ -23,32 +23,20 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import { SlCallEnd } from 'react-icons/sl';
 
 
-import { generateInvoicePDF } from '../utils/generatePdf'; 
-
 export const Checkout = () => {
-    const invoiceData = {
-        invoiceNumber: 'INV-' + Date.now(),
-        customer: {
-            name: 'Mr. Amir Masoom',
-            address: 'Unit 15, Linen House, 253 Kilburn Lane, Queen\'s Park London, W10 4BQ',
-            email: 'portal@halalfoodauthority.com'
-        },
-        item: {
-            description: 'SSL Business Wildcard - Instant SSL DV - Protection for one domain name - Domain Validated - Up to 256-bit encryption - £500,000 loss excess amount - Padlock display - Easy to activate on your website',
-            duration: '1 Year',
-            price: 1390.00,
-            amount: 1390.00
-        },
-        totals: {
-        subtotal: 1390.00,
-        vat: 278.00,
-        total: 1668.00
-        }
+
+
+    const downloadInvoice = () => {
+        const link = document.createElement('a');
+        link.href = '/invoices/49003827189_Inv.pdf';
+        link.download = 'Invoice-49003827189.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     };
 
-    const handleViewInvoice = () => {
-        generateInvoicePDF(invoiceData);
-    };
+
+
   return (
     <div className='checkout'>
         <div className="checkout-header">
@@ -86,7 +74,7 @@ export const Checkout = () => {
                         <div>
                             <h3>SSL Starter</h3>
                             <div>
-                                <h3>£1330</h3>
+                                <h3>£890</h3>
                             </div>
                         </div>
                         <div style={{gap: "10px"}}>
@@ -152,7 +140,7 @@ export const Checkout = () => {
                     <div>1 item</div>
                     <div style={{display: "flex", justifyContent: "space-between"}}>
                         <h2>Total excl. VAT</h2>
-                        <h2>£1330</h2>
+                        <h2>£890</h2>
                     </div>
                     <div style={{textAlign:"right"}}>
                         {/* (20% VAT £666) */}
@@ -167,7 +155,7 @@ export const Checkout = () => {
                         OR
                         <hr />
                     </div>
-                    <div onClick={handleViewInvoice} className='continue-btn'>
+                    <div onClick={downloadInvoice} className='continue-btn'>
                         <a href="#">View Invoice</a>
                     </div>
                 </div>
